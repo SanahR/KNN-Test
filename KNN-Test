@@ -1,0 +1,26 @@
+# Step 1: Making the Data
+X = np.array([[4.8],[4.9],[5.1],[5.4],[5.3]])
+y = np.array([5,5,6,6,6])
+ymask = y==5
+newy = y[ymask]
+newx= X[ymask]
+ymask2 = y==6
+ultray = y[ymask2]
+ultrax = X[ymask2]
+# Step 2: Creating the Algorithm
+algo = KNC(n_neighbors = 1)
+
+
+# Step 3: Learning/Training
+algo.fit(X,y)
+
+
+# Step 4: Prediction/Testing
+ask = float(input("What is the student's height? "))
+print(algo.predict([[ask]]))
+
+
+plt.plot(ultrax, color = "MediumOrchid", label = "Sixth Grade",marker = "P",ms = 10)
+plt.plot(newx, color = "Coral", label = "Fifth Grade",marker = "<",ms = 10)
+plt.legend()
+plt.xticks([0,1,2],labels = [" "," "," "])
