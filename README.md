@@ -3,6 +3,14 @@
 A short test of **K Nearest Neighbors**, not for anything. _Just for classes and to add to documentation_. This was used as my first repository for my Machine Learning class. It is a simple test using plotting and simple prediction using the K Nearest Neighbors algorithm. The original code was made in Google Colab and has since been housed in my documentation. I couldn't care less about this code because it is simply a learning opportunity as well as an opportunity to learn how to use Github.
 ### Stuff To Know
 This has an **MIT License**. If you are wondering about any errors, you might wanna read the documentation section here. I'm sorry if it is cringy, but **I am a child**, and it suits my age. This was written for a specific lesson in a curriculum, so this is only part of something much bigger. Hopefully by the time you are reading this, I will have more things on my profile, not just this(this is my first thing by the way). Another thing, the reason that there seems like there is some weird gap in the typing for my documentation is because in between the two sections  you see, there used to be  code. Obviously, we don't need that in this text file because it is just the exact thing. 
+
+## What is KNN? 
+_KNearestNeighbors is an algorithm that classifies an object into a category based on the data you give it and what the proximity between the data and the object._ 
+For example, if apples are 5 and 6 and oranges are 9 and 12, and you give the algorithm the number 4, the closest number to four is 5, which is classified as an apple, therefore, four would be classified as an apple. 
+Nearest means closest, and Neighbors means next to. 
+The K is the trickiest part, it means how many neighbors. For example, with our apple and oranges thing, if we choose 3 neighbors for the number four, the neighbors would be 5,6, and 9. Now this would make it an apple because only one of the neighbors is an orange. The majority wins here because apples have 2 neighbors.  With small datasets, it is best to keep the K to one. With bigger datasets, you can up it to your liking. 
+This specific project was created to be my first venture into KNN
+
 ## My Documentation
 Here is what I wrote about this specific code in my documentation: 
 
@@ -15,3 +23,5 @@ There’s a lot to notice here. Especially the **complex masking system** that w
 # Graph Results
 Here are the results from the graph that I made in this code. 
 ![Image](FifthGradeSixthGradeHeight.png "The Image")
+
+
