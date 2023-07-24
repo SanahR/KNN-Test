@@ -13,7 +13,7 @@ y = np.array([5,5,6,6,6])
 ymask = y==5
 #Applying the masks
 #newy is not really needed
-newy = y[ymask
+newy = y[ymask]
 newx= X[ymask]
 
 #Making 6th Grade
