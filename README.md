@@ -1,4 +1,6 @@
 # About This Project
+## Overview
+I used short data and the KNearestNeighbors classifier algorithm to classify people of 5th and 6th grade based on height. I gave it some heights, and their corresponding grades to train on, and then made predictions. I also plotted the data out so the user can see it. 
 ## The Purpose of This Project
 A short test of **K Nearest Neighbors**, not for anything. _Just for classes and to add to documentation_. This was used as my first repository for my Machine Learning class. It is a simple test using plotting and simple prediction using the K Nearest Neighbors algorithm. The original code was made in Google Colab and has since been housed in my documentation. I couldn't care less about this code because it is simply a learning opportunity as well as an opportunity to learn how to use Github.
 ### Stuff To Know
