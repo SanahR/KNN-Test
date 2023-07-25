@@ -22,6 +22,6 @@ There’s a lot to notice here. Especially the **complex masking system** that w
 
 # Graph Results
 Here are the results from the graph that I made in this code. 
-![Image](FifthGradeSixthGradeHeight.png "The Graph")
+![Image](graph.png "The Graph")
 
 
